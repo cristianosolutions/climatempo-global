@@ -17,17 +17,28 @@ API desenvolvida para consultar o clima em tempo real de qualquer cidade do mund
 
 ---
 
-## ⚡ Instalação
+## ⚡ Como executar a API
 
-**1. Clone o projeto e entre na pasta raiz:**
+**1. Clone o repositório ou baixar:**
 ```bash
-  git clone https://github.com/cristianosolutions/climatempo-global.git
-  cd climatempo-global
+  git clone https://github.com/cristianosolutions/climatempo-global.git 
 ```
-**2. Inicializar npm e instalar dependências**
+**2. Entrar na pasta**
+```bash
+ cd climatempo-global
+```
+
+**3. Instalar dependências**
 ```bash
 npm init -y
 npm install axios dotenv
-
+```
+**4. Iniciar o servidor**
+```bash
+npm start
+```
+**5 Rodando os teste**
+```bash
+npm test
 ```
 
