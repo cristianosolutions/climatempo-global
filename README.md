@@ -67,10 +67,13 @@ API rodando em ```http://localhost:3000```
    ---
 
    <br>
-
-   ## 📝 Documentação da ```API```
    
-    👉 [Clique aqui para visualizar a documentação da API:](https://github.com/cristianosolutions/api-alagamentos/blob/main/doc/architecture.md)
+
+   ## 📝 Documentação da ```API```   
+   
+👉 ![Clique aqui para visualizar a documentação da API:](https://github.com/cristianosolutions/climatempo-global/blob/main/docs/arquiteturaapi.md)
+
+<br><br>
 
 
 
