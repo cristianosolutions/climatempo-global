@@ -57,7 +57,7 @@
 +-----------------------------+
 
 
-clima-tempo-global/
+climatempo-global/
 ├─ docs/               # Documentação API 
 ├─ src/                # Código-fonte do projeto
 ├─ tests/              # Testes unitários
