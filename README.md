@@ -41,4 +41,5 @@ npm start
 ```bash
 npm test
 ```
+O Jest irá executar todos os testes e você deverá ver um resultado como 3 passed, 3 total, confirmando que sua API está robusta e confiável.
 
