@@ -1,6 +1,8 @@
-# Clima Tempo Global API
+# 🌦️ Clima Tempo Global API
+<br>
 
-API simples para consultar o clima atual de qualquer cidade usando a [OpenWeatherMap API](https://openweathermap.org/api) sem interface gráfica. Pode ser utilizada via terminal (CLI), (POSTMAN) ou como micro-API para integração com outros sistemas.
+## 🎯 Objetivo da API
+API desenvolvida para consultar o clima em tempo real de qualquer cidade do mundo usando a **[OpenWeatherMap API](https://openweathermap.org/api)**. Pode ser utilizada via terminal **(CLI)** ou **(POSTMAN)**.
 
 ---
 
