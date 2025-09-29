@@ -65,7 +65,12 @@ API rodando em ```http://localhost:3000```
    Apos importar, voce terá uma coleção com duas requisições prontas para consumir.
 
    ---
+
+   <br>
+
+   ## 📝 Documentação da ```API```
    
+    👉 [Clique aqui para visualizar a documentação da API:](https://github.com/cristianosolutions/api-alagamentos/blob/main/doc/architecture.md)
 
 
 
