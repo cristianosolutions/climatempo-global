@@ -1,4 +1,4 @@
-// server.js
+// src/server.js
 require('dotenv').config();
 const express = require('express');
 const axios = require('axios');
@@ -6,11 +6,12 @@ const axios = require('axios');
 const app = express();
 const PORT = process.env.PORT || 3000;
 const API_KEY = process.env.OWM_API_KEY;
-console.log("API_KEY carregada?", API_KEY ? "SIM" : "NÃO");
+
+console.log('API_KEY carregada?', API_KEY ? 'SIM' : 'NÃO');
 
 if (!API_KEY) {
-  console.error('ERRO: defina OWM_API_KEY no .env');
-  process.exit(1);
+  console.warn('AVISO: variável OWM_API_KEY não definida. Para testes com nock isso é OK.');
+  // Não dar exit para permitir execução de testes que mockam as requisições.
 }
 
 app.get('/health', (req, res) => res.json({ status: 'ok' }));
@@ -50,11 +51,9 @@ app.get('/weather', async (req, res) => {
     return res.json(output);
   } catch (err) {
     if (err.response) {
-      // Erro retornado pelo OpenWeather (ex: 404 cidade)
       if (err.response.status === 404) return res.status(404).json({ error: 'Cidade não encontrada' });
       return res.status(err.response.status).json({ error: err.response.data || 'Erro do OpenWeather' });
     }
-    // Timeout ou problema de rede
     console.error('Erro ao consultar OpenWeather:', err.message);
     return res.status(500).json({ error: 'Erro ao buscar dados do OpenWeather' });
   }
@@ -62,4 +61,10 @@ app.get('/weather', async (req, res) => {
 
 app.use((req, res) => res.status(404).json({ error: 'Rota não encontrada' }));
 
-app.listen(PORT, () => console.log(`API rodando em http://localhost:${PORT}`));
+// Exporta o app para testes
+module.exports = app;
+
+// Inicia servidor apenas se executado diretamente (node src/server.js)
+if (require.main === module) {
+  app.listen(PORT, () => console.log(`API rodando em http://localhost:${PORT}`));
+}
