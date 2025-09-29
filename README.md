@@ -47,4 +47,10 @@ O Jest irá executar todos os testes e você deverá ver um resultado como 3 pas
 
 ## 🚀 Instruções de Consumir API [OpenWeatherMap API](https://openweathermap.org/api) via Postman
 
+**1. Certifique-se de que o servidor Node.Js esteja rodando**
+```bash
+npm start
+```
+API rodando em ```http://localhost:3000```
+
 
