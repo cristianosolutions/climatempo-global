@@ -41,7 +41,7 @@ npm start
 ```bash
 npm test
 ```
-O Jest irá executar todos os testes e você deverá ver um resultado como 3 passed, 3 total, confirmando que sua API está robusta e confiável.
+O Jest irá executar todos os testes e você deverá ver um resultado como ```3 passed```, ```3 total```, confirmando que sua API está robusta e confiável.
 
 ---
 
@@ -52,5 +52,21 @@ O Jest irá executar todos os testes e você deverá ver um resultado como 3 pas
 npm start
 ```
 API rodando em ```http://localhost:3000```
+
+<br>
+
+**2. Utilize a coleção ```JSON``` abaixo para importar todas as rotas ```HTTP``` no ```POSTMAN```**:
+<br>
+
+   👉 ![Aqui está a coleção pronta Json para copiar ou baixar](https://github.com/cristianosolutions/climatempo-global/blob/main/postman/colecao.json)
+
+   **3. No ```Postman``` File -> Import -> Raw text e cole o JSON**.
+   <br><br>
+   Apos importar, voce terá uma coleção com duas requisições prontas para consumir.
+
+   ---
+   
+
+
 
 
