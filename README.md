@@ -20,5 +20,5 @@ API simples para consultar o clima atual de qualquer cidade usando a [OpenWeathe
 
 1. Clone o projeto:
 ```bash
-git clone <repo-url>
+git clone <https://github.com/cristianosolutions/climatempo-global.git>
 cd climatempo-global
