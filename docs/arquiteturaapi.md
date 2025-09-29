@@ -60,4 +60,25 @@
 - **400** → ```{"error": "query param city é obrigatório"}```<br>
 - **404** → ```{"error": "Cidade não encontrada"}```<br>
 - **500** → ```{"error": "Erro ao buscar dados do OpenWeather"}```<br>
+---
+
+### 📍 Rotas
+- GET    ```/health```    Health check da API<br>
+- GET    ```/weather?city=Fortaleza```    Retorna dados climáticos atuais<br>
+
+---
+
+### 🧪 Testes de saúde
+**Frameworks**
+- **Jest** → testes unitários e integração.
+- **Supertest** → simula requisições HTTP.
+- **Nock** → mock de chamadas ao OpenWeatherMap.<br>
+
+**Exemplo de testes existentes**<br>
+✅ ```GET /health``` retorna ```{status: "ok"}```.<br>
+✅ ```GET /weather?city=Fortaleza``` retorna campos esperados (mockado com Nock).<br>
+✅ ```GET /weather``` sem ```city``` retorna 400.<br>
+
+
+
 
