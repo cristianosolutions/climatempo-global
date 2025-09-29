@@ -73,8 +73,9 @@ API rodando em ```http://localhost:3000```
    
 👉 ![Clique aqui para visualizar a documentação da API:](https://github.com/cristianosolutions/climatempo-global/blob/main/docs/arquiteturaapi.md)
 
-<br><br>
+<br>
 
-
+## 📝 Diagrama da ```API```
+👉 ![Clique aqui para visualizar a documentação da API:](https://github.com/cristianosolutions/climatempo-global/blob/main/docs/arquiteturaapi.md)
 
 
