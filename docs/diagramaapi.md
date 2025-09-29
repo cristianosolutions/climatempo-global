@@ -58,11 +58,9 @@
 
 
 clima-tempo-global/
-├─ docs/               # Documentação
+├─ docs/               # Documentação API 
 ├─ src/                # Código-fonte do projeto
-├─ postman/            # Coleção Postaman para realizar os testes
-├─ .env
-├─ .gitignore
-├─ package-lock.json
-├─ package.json
-└─ README.md
+├─ tests/              # Testes unitários
+├─ postman/            # Coleção Postaman
+├─ .env                # Key API  
+└─ README.md           # Documentação Inicial
