@@ -90,7 +90,7 @@ API rodando em ```http://localhost:3000```
   - **Cristiano Magno**
   - **Italo Bruno**
     <br>
- ### Instalações de dependências e Estrutura de pastas
+ ### Instalação de dependências e testes Endpoint
   - **Amanda Freire**
   - **Davi Gaspar**
     <br>
