@@ -82,4 +82,27 @@ API rodando em ```http://localhost:3000```
 
 ---
 
+<br>
+
+ ## 📝 Responsabilidades da equipe no desenvolvimento da API
+
+ ### Desenvolvimento código fonte e integração
+  - **Cristiano Magno**
+  - **Italo Bruno**
+    <br>
+ ### Instalações de dependências e Estrutura de pastas
+  - **Amanda Freire**
+  - **Davi Gaspar**
+    <br>
+### Organização de Documentação e Markdown no GitHub
+  - **Raphaela Vidal**
+  - **Antonia Samara**
+
+---
+
+<br><br>
+  
+
+
+
 
