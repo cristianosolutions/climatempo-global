@@ -1,4 +1,4 @@
-## ⚙️ Descrição Funcional da Solução
+## Descrição Funcional da Solução
 
 #### Requisitos funcionais
 - RF01: A API deve retornar o status do servidor (`/health`).  
@@ -18,13 +18,13 @@
 
 <br>
 
-### 📡 Protocolos de integração
+### Protocolos de integração
 - **REST/HTTP** → comunicação entre cliente (curl/Postman) e a API.  
 - **REST (OpenWeatherMap)** → integração da nossa API com o serviço externo.
 
 ---
 
-## 🏗️ Design da AP
+## Design da AP
 
 ### Endpoints e Modelos de Dados
 
@@ -62,13 +62,13 @@
 - **500** → ```{"error": "Erro ao buscar dados do OpenWeather"}```<br>
 ---
 
-### 📍 Rotas
+### Rotas
 - GET    ```/health```    Health check da API<br>
 - GET    ```/weather?city=Fortaleza```    Retorna dados climáticos atuais<br>
 
 ---
 
-### 🧪 Testes de saúde
+### Testes de saúde
 **Frameworks**
 - **Jest** → testes unitários e integração.
 - **Supertest** → simula requisições HTTP.
