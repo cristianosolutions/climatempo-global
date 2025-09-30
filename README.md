@@ -58,7 +58,7 @@ API rodando em ```http://localhost:3000```
 **2. Utilize a coleção ```JSON``` abaixo para importar todas as rotas ```HTTP``` no ```POSTMAN```**:
 <br>
 
-   👉 ![Aqui está a coleção pronta Json para copiar ou baixar](https://github.com/cristianosolutions/climatempo-global/blob/main/postman/colecao.json)
+   👉 [Aqui está a coleção pronta Json para copiar ou baixar](https://github.com/cristianosolutions/climatempo-global/blob/main/postman/colecao.json)
 
    **3. No ```Postman``` File -> Import -> Raw text e cole o JSON**.
    <br><br>
@@ -71,12 +71,12 @@ API rodando em ```http://localhost:3000```
 
    ## 📝 Documentação da ```API```   
    
-👉 ![Clique aqui para visualizar a documentação da API:](https://github.com/cristianosolutions/climatempo-global/blob/main/docs/arquiteturaapi.md)
+👉 [Clique aqui para visualizar a documentação da API:](https://github.com/cristianosolutions/climatempo-global/blob/main/docs/arquiteturaapi.md)
 
 <br>
 
 ## 📝 Diagrama da ```API```
-👉 ![Clique aqui para visualizar o diagrama da API:](https://github.com/cristianosolutions/climatempo-global/blob/main/docs/diagramaapi.md)
+👉 [Clique aqui para visualizar o diagrama da API:](https://github.com/cristianosolutions/climatempo-global/blob/main/docs/diagramaapi.md)
 
 <br><br>
 
